@@ -1,0 +1,21 @@
+# --- data -----------------------------------------------------------------
+# The raw OWID downloads and everything derived from them stay local.
+# See data/raw/README.md for exactly which files to fetch and where from.
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- jupyter ---------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- os / editors ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
